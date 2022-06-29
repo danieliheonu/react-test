@@ -11,11 +11,11 @@ function Menu() {
             </div>
             <span>All</span>
         </a>
-        <a href='#'>Today's Deals</a>
-        <a href='#'>Customer Service</a>
-        <a href='#'>Registry</a>
-        <a href='#'>Gift Cards</a>
-        <a href='#'>Sell</a>
+        <a href='#today-deals'>Today's Deals</a>
+        <a href='#customer-service'>Customer Service</a>
+        <a href='#registry'>Registry</a>
+        <a href='#gift-cards'>Gift Cards</a>
+        <a href='#sell'>Sell</a>
     </div>
   )
 }

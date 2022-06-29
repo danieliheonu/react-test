@@ -4,6 +4,8 @@ import { products, items } from '../db/db'
 import DressComponent from './DressComponent'
 import PopularProducts from './PopularProducts'
 import BookComponent from './BookComponent'
+import SignInComponent from './SignInComponent'
+import BackToTopComponent from './BackToTopComponent'
 
 
 function Products() {
@@ -13,6 +15,8 @@ function Products() {
       {items.map(item => <DressComponent key={item.id} item={item} />)}
       <PopularProducts />
       <BookComponent />
+      <SignInComponent />
+      <BackToTopComponent />
     </div>
   )
 }
