@@ -233,4 +233,9 @@ body {
   width: 150px;
   object-fit: contain;
   margin-top: 30px;
+  cursor: pointer;
+}
+
+.popular-product-section div img:hover {
+  opacity: 0.3;
 }
